@@ -9,19 +9,19 @@ public class Dart implements Carro {
 
 	@Override
 	public void acelerar() {
-		System.out.println("Acelerou");
+		System.out.println("acelerou");
 
 	}
 
 	@Override
 	public void frear() {
-		System.out.println("Freou");
+		System.out.println("freou");
 
 	}
 
 	@Override
 	public void trocarMarcha() {
-		System.out.println("Trocou de marcha");
+		System.out.println("trocou de marcha");
 
 	}
 

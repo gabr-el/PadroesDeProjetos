@@ -10,6 +10,22 @@ public class Cliente {
 		carro.exibirInfo();
 		System.out.println();
 
+		fabrica = new FabricaTesla();
+		carro = fabrica.criarCarro();
+		carro.trocarMarcha();
+		carro.frear();
+		carro.acelerar();
+		carro.exibirInfo();
+		System.out.println();
+
+		fabrica = new FabricaDodge();
+		carro = fabrica.criarCarro();
+		carro.trocarMarcha();
+		carro.frear();
+		carro.acelerar();
+		carro.exibirInfo();
+		System.out.println();
+
 		fabrica = new FabricaDodge();
 		carro = fabrica.criarCarro();
 		carro.trocarMarcha();

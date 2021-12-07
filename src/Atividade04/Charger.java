@@ -10,19 +10,19 @@ public class Charger implements Carro {
 
 	@Override
 	public void acelerar() {
-		// TODO Auto-generated method stub
+		System.out.println("acelerou");
 
 	}
 
 	@Override
 	public void frear() {
-		// TODO Auto-generated method stub
+		System.out.println("freou");
 
 	}
 
 	@Override
 	public void trocarMarcha() {
-		// TODO Auto-generated method stub
+		System.out.println("trocou de marcha");
 
 	}
 
