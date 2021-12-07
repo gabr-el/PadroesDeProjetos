@@ -1,28 +1,28 @@
 package Atividade04;
 
 public class ModeloS implements Carro {
+	String ModeloS;
 
 	@Override
 	public void exibirInfo() {
-		System.out.println("Modelo: S \nFabricante: Tesla");
-
+		System.out.println("Modelo: Modelo S\nFabricante: Tesla");
 	}
 
 	@Override
 	public void acelerar() {
-		// TODO Auto-generated method stub
+		System.out.println("acelerou");
 
 	}
 
 	@Override
 	public void frear() {
-		// TODO Auto-generated method stub
+		System.out.println("freou");
 
 	}
 
 	@Override
 	public void trocarMarcha() {
-		// TODO Auto-generated method stub
+		System.out.println("trocou de marcha");
 
 	}
 

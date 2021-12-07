@@ -4,7 +4,7 @@ public class Charger implements Carro {
 
 	@Override
 	public void exibirInfo() {
-		System.out.println("Modelo: Charger \nFabricante: Dodge");
+		System.out.println("\"Modelo: Charger\\nFabricante: Dodge\"");
 
 	}
 

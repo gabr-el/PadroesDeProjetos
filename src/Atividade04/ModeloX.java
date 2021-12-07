@@ -4,8 +4,7 @@ public class ModeloX implements Carro {
 
 	@Override
 	public void exibirInfo() {
-		System.out.println("Modelo: X \nFabricante: Tesla");
-
+		System.out.println("Modelo: ModeloX\nFabricante: Tesla");
 	}
 
 	@Override

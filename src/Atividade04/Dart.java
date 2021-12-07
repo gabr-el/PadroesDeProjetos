@@ -4,25 +4,24 @@ public class Dart implements Carro {
 
 	@Override
 	public void exibirInfo() {
-		System.out.println("Modelo: Dart \nFabricante: Dodge");
-
+		System.out.println("Modelo: Dart\nFabricante: Dodge");
 	}
 
 	@Override
 	public void acelerar() {
-		// TODO Auto-generated method stub
+		System.out.println("Acelerou");
 
 	}
 
 	@Override
 	public void frear() {
-		// TODO Auto-generated method stub
+		System.out.println("Freou");
 
 	}
 
 	@Override
 	public void trocarMarcha() {
-		// TODO Auto-generated method stub
+		System.out.println("Trocou de marcha");
 
 	}
 
